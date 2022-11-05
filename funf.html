@@ -1,5 +1,35 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(8, 39, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(90, 0, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(109, 109, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style> 
+</head>
+<!-- These were link colours by using CSS 
+other options for the links bellow
+-->
 <a href="google.com">hyperlinks here </a>
 <!-- The target attribute can have one of the following values:
 
@@ -21,4 +51,35 @@
 </a> 
 <h2 style="bold"> for using botton as a link we need JavaScript code <br> like this one: </h2>
 <button onclick="document.location='default.asp'">Click on me!</button> 
+<!-- ALSO by using the past CSS:
+<style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style> 
+
+-->
+<hr>
+<h1> This is bookmark testing </h1>
+    <h4><a href="#C4">Jump to Chapter 4</a></h4>
+<h2>Chapter Eins</h2>
+    <p>This chapter explains SALAMALEKOMNAJURSUZZZ</p>
+
+<h2>Chapter Zwei</h2>
+    <p>This chapter explains SALAMALEKOMNAJURSUZZZ</p>
+
+<h2>Chapter Drei</h2>
+    <p>This chapter explains SALAMALEKOMNAJURSUZZZ</p>
+
+<h2 id="C4">Chapter Vier</h2>
+    <p>This chapter explains SALAMALEKOMNAJURSUZZZ</p>
 </html>
