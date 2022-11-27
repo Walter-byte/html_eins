@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <!-- HTML img map 
+    The HTML <map> tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more <area> tags. 
+    -->
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" href="computer.htm" alt="computer">
+        <area shape="rect" coords="290,172,333,250" href="phone.htm" alt="Phone">
+        <area shape="circle" coords="337,300,44" href="coffee.htm" alt="coffee">
+    </map>
+        <!-- SO WHAT HAPPEND ?
+        defined values
+        rect
+        circular
+        poly
+        default = entire region 
+        -
+        The coordinates for shape="rect" come in pairs, one for the x-axis and one for the y-axis.
+        So, the coordinates 34,44 is located 34 pixels from the left margin and 44 pixels from the top:
+        To add a circle area, first locate the coordinates of the center of the circle, then
+        specify the radius of the circle.
+        -->
+    
+</body>    
+</html>
